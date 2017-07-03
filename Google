@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<div class="logo"></div>
+<div class="footer"></div>
+
+<style>
+div {margin:o;}
+.logo {
+content:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png);
+height: 92px;
+width: 272px;
+margin: auto;
+display: block;
+padding: 190px 0;
+image-resolution: 961dpi;
+}
+#footer {
+ color: white;
+ font-family: arial,sans-serif;
+ color:#757575;
+ font-size: small;
+ z-index: 1;
+ position:absolute;
+ margin-top: 321px;
+}
+.adv{
+  float:left;
+  margin-left: 22px;
+}
+.bus{
+  float:left;
+  margin-left: 31px;
+}
+.abo{
+  float:left;
+  margin-left: 30px;
+}
+.pri{
+  float:left;
+  margin-left: 1397px;
+}
+.ter{
+  float:left;
+  margin-left: 1704px;
+  margin-top: -41px;
+}
+.set{
+  float:left;
+  margin-left: 1770px;
+  margin-top: -41px;
+
+}
+.footer {
+  background-color: #f2f2f2; position: relative;
+  position:fixed;
+     left:0px;
+     bottom:0px;
+     height:42px;
+     width:100%;
+     border-top: 1px solid #dedbdb;
+     z-index: 0;
+   }
+   input[type=text] {
+    width: 573px;
+    padding: 14px 5px;
+    margin-top: -165px;
+    margin-left: 633px;
+    display: inline-block;
+    float: left;
+    border-top: 1px solid #dedbdb;
+    border-left: 1px solid #dedbdb;
+    border-right: 1px solid #dedbdb;
+    border-bottom: 3px solid #dedbdb;
+   }
+   input[value="Google Search"] {
+     border: 0px;
+     float: left;
+     margin-top: -105px;
+     margin-left: 781px;
+     text-decoration-color: blue;
+     width: 126px;
+     height: 36px;
+     color: #757575;
+     background-color: #f2f2f2;
+     font-weight: bold;
+   }
+   input[value="I'm Feeling Lucky"] {
+     border: 0px;
+     float: left;
+     margin-top: -105px;
+     margin-left: 915px;
+     text-decoration-color: blue;
+     width: 142px;
+     height: 36px;
+     color: #757575;
+     background-color: #f2f2f2;
+     font-weight: bold;
+   }
+   ul {
+     display: inline-block;
+     float: left;
+     margin-top: -475px;
+     margin-left: 1550px;
+     text-decoration: none
+     word-spacing: 2em;
+   }
+   li{
+     color:#dedbdb;
+     display: inline-block;
+     float: left;
+     margin-right: 15px;
+     font-size: 13px;
+     text-decoration: none;
+     font-family: arial,sans-serif;
+
+   }
+   a:link{
+     color:#757575;
+     word-spacing: 2em;
+     text-decoration: none
+   }
+   .icon {
+     float:left;
+     margin-left: 1786px;
+     margin-top: -483px;
+     border-radius: 50%;
+     overflow: hidden;
+     perspective: 1px;
+     height: 32px;
+   }
+   .bell{
+     height: 20px;
+     width: 20px;
+     color: white;
+     float:left;
+     margin-left: 1747px;
+     margin-top: -477px;
+     overflow: hidden;
+     perspective: 1px;
+     background-color: rgba(0,0,0,.55);
+     border-radius: 50%;
+     padding-left: -1px;
+     margin-right: 1px solid white;
+   }
+   .grid{
+     height: 20px;
+     width: 20px;
+     color: white;
+     float:left;
+     margin-left: 1702px;
+     margin-top: -476px;
+   }
+
+
+</style>
+<head>
+<title>Google</title>
+</head>
+<body>
+  <form action="#" method="POST" name="my_form">
+    <input type="text" name ="username"><br>
+    <input type="submit" value="Google Search">
+    <input type="submit" value="I'm Feeling Lucky">
+  </form>
+  <ul>
+    <li><a href="#">Gmail<a></li>
+    <li><a href="#">Images<a></li>
+  </ul>
+  <p class="icon">
+    <img src="icon.jpg" alt="usericon">
+  </p>
+  <p class="bell">
+    <img src="bell.png" alt="alert" height="17px" width="17px">
+  </p>
+  <p class="grid">
+    <img src="grid.png" alt="grid" height="20px" width="20px">
+  </p>
+<div id="footer">
+  <a class="adv">
+    <p>Advertising</p>
+  </a>
+  <a class="bus">
+    <p>Business</p>
+  </a>
+  <a class="abo">
+    <p>About</p>
+  </a>
+  <a class="pri">
+    <p>Privacy</p>
+  </a>
+  <a class="ter">
+    <p>Terms</p>
+  </a>
+  <a class="set">
+    <p>Settings</p>
+  </a>
+</div>
+</body>
+</html>
